@@ -1,0 +1,93 @@
+.container {
+  position: relative;
+}
+
+.autosuggestContainer {
+  position: relative;
+  width: 100%;
+  max-width: 400px;
+  position: relative;
+}
+
+.inputField {
+  width: 100%;
+  padding: 10px;
+  font-size: 16px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+.suggestionContainer {
+  max-height: 400px;
+  overflow-y: scroll;
+  border: 1px solid #ccc;
+  position: absolute;
+  width: 100%;
+  background: #fff;
+}
+
+.suggestionsList {
+  position: absolute;
+  top: 100%;
+  left: 0;
+  width: 100%;
+  background: white;
+  border: 1px solid #ccc;
+  border-top: none;
+  z-index: 1000;
+}
+
+.suggestionItem {
+  padding: 10px;
+  cursor: pointer;
+  list-style: none;
+  border-bottom: 1px solid #ccc;
+}
+
+.suggestionItem:hover,
+.suggestionItem:focus {
+  background-color: #f0f0f0;
+}
+
+.inputWrapper {
+  position: relative;
+  display: inline-block;
+  width: 100%;
+}
+
+.spinner {
+  position: absolute;
+  right: 5px;
+  top: 50%;
+  transform: translateY(-50%);
+  width: 20px;
+  height: 20px;
+  border: 3px solid rgba(0, 0, 0, 0.3);
+  border-top-color: #000;
+  border-radius: 50%;
+  animation: spin 1s linear infinite;
+}
+
+@keyframes spin {
+  0% {
+    transform: translateY(-50%) rotate(0deg);
+  }
+
+  100% {
+    transform: translateY(-50%) rotate(360deg);
+  }
+}
+
+.anchor {
+  color: 'inherit';
+  text-decoration: none;
+}
+
+.title {
+  font-size: 16px;
+  font-weight: bold;
+}
+
+.description {
+  font-style: italic;
+}
