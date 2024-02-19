@@ -37,4 +37,5 @@ yarn start
 <img width="1618" alt="image" src="https://github.com/sunnypuri/wiki-search/assets/19977722/a9be3d44-2b33-4f9e-b54e-de401bad5890">
 
 ### With Search in Wiki
-![Uploading image.png…]()
+<img width="1562" alt="image" src="https://github.com/sunnypuri/wiki-search/assets/19977722/5d14f053-ae34-40ed-a30c-02e45a32552b">
+
