@@ -2,8 +2,18 @@
 ### Reference to install Redis
 https://redis.io/docs/install/install-redis/install-redis-on-mac-os/
 
+> [Option 1]
+### Run with existing dist/build folders
 
-### Steps to Run Project
+```
+Run below commands at root directory
+yarn install
+yarn start
+```
+
+
+> [Option 2]
+### Run with new build
 
 ```
 cd client
