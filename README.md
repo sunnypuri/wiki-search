@@ -29,3 +29,12 @@ yarn start
 - Added React for client UI
 - Helmet for adding security
 - Redis for caching APIs and maintaning History
+
+### Landing Page
+<img width="1502" alt="image" src="https://github.com/sunnypuri/wiki-search/assets/19977722/eae147f5-131f-4c83-b062-da37c6aaa5b3">
+
+### With Last 5 History
+<img width="1618" alt="image" src="https://github.com/sunnypuri/wiki-search/assets/19977722/a9be3d44-2b33-4f9e-b54e-de401bad5890">
+
+### With Search in Wiki
+![Uploading image.png…]()
